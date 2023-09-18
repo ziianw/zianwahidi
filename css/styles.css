@@ -11642,14 +11642,14 @@ html {
   fill: #213555;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 415px) {
   .profile {
     height: 60vw;
     width: 60vw;
   }
   .profile .profile-img {
     height: 65vw;
-    margin-left: 40px;
+    margin-left: 20px;
   }
   .profile .dots-1 {
     width: 3vw;
