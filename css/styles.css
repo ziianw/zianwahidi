@@ -11642,7 +11642,7 @@ html {
   fill: #213555;
 }
 
-@media (min-width: 415px) {
+@media (min-width: 315px) {
   .profile {
     height: 60vw;
     width: 60vw;
