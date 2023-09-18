@@ -18,8 +18,10 @@ const typeEffect = () => {
     const currentWord = words[wordIndex];
     const currentChar = currentWord.substring(0, charIndex);
 
-    // Modifikasi warna teks dan efek pengetikan
+    // Set the text color to black
     dynamicText.style.color = "black";
+
+    // Modifikasi efek pengetikan
     dynamicText.style.textDecoration = "none";
     dynamicText.textContent = currentChar;
 

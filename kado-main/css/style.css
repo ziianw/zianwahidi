@@ -17,8 +17,9 @@ body{
     font-size: 6rem;
     font-weight: 900;
 }
-.greetings > span{
+.greetings > span {
     animation: glow 2.5s ease-in-out infinite;
+    color: black; /* Atur warna teks menjadi ungu */
 }
 
 button{
