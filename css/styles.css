@@ -8197,7 +8197,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: #fff;
+  color: white;
 }
 
 .text-secondary {
@@ -11786,3 +11786,7 @@ section, footer {
   padding-right: 0;
 }
 
+.text-primary {
+  --bs-text-opacity: 1;
+  color: white;
+}
