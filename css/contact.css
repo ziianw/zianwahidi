@@ -250,9 +250,11 @@ sup {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
+  transition: color 0.5s ease; /* Menambahkan transisi warna selama 0.3 detik dengan efek 'ease' */
 }
+
 a:hover {
   color: black;
 }
@@ -3629,7 +3631,7 @@ textarea.form-control-lg {
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
-  color: var(--bs-nav-link-color);
+  color: white;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -8195,7 +8197,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: #000;
+  color: white;
 }
 
 .text-secondary {
@@ -8332,6 +8334,7 @@ textarea.form-control-lg {
 .bg-white {
   --bs-bg-opacity: 1;
   background-color: #4F709C;
+  color: white;
 }
 
 .bg-body {

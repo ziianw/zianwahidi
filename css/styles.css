@@ -74,7 +74,7 @@
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
   --bs-link-color: #1e30f3;
-  --bs-link-hover-color: #1826c2;
+  --bs-link-hover-color: #020415;
   --bs-code-color: #e21e80;
   --bs-highlight-bg: #fff3cd;
 }
@@ -250,11 +250,23 @@ sup {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
+  transition: color 0.5s ease; /* Menambahkan transisi warna selama 0.3 detik dengan efek 'ease' */
 }
+
 a:hover {
   color: black;
+}
+
+.navbar-nav .nav-item a {
+  color: white; /* Warna teks default */
+  text-decoration: none; /* Menghapus garis bawah pada tautan */
+  transition: color 0.5s ease; /* Efek transisi warna saat tautan dihover */
+}
+
+.navbar-nav .nav-item a:hover {
+  color: black; /* Warna teks saat tautan dihover */
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
