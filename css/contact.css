@@ -11890,7 +11890,7 @@ textarea {
     background-image: linear-gradient(131deg, #ffd340, #ff923c, #ff923c, #ff923c);
     background-size: 300% 100%;
     transition: all 0.3s ease-in-out;
-    margin-top: 20px; /* Add margin to create a gap between elements */
+    margin-top: 2px; /* Add margin to create a gap between elements */
 }
 
 .btn.btn-primary:hover:enabled {

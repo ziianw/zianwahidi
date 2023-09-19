@@ -16,13 +16,22 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            /* CSS untuk mengatur ukuran ikon */
+            .bi {
+                font-size: 2rem; /* Ubah ukuran ikon sesuai kebutuhan */
+                margin-right: 10px; /* Atur margin antara ikon dan tombol */
+                margin-bottom: 15px;
+                color: #4F709C;
+            }
+        </style>
     </head>
     <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="./projects.html">
                         <span class="fw-bolder text-primary" style="font-family: 'Cambria', sans-serif; font-weight: bold; font-style: italic;">Zian Wahidi</span></a>                    
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -46,14 +55,20 @@
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-11 col-xl-9 col-xxl-8">
                         <!-- Project Card 1-->
-                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5" data-aos="fade-left"
-                        data-aos-duration="1550">
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5" data-aos="fade-left" data-aos-duration="1550">
                             <div class="card-body p-0">
                                 <div class="d-flex align-items-center">
                                     <div class="p-5">
                                         <h2 class="fw-bolder">Portofolio Website</h2>
                                         <p>My Personal Website, I created this website to display my profile, experience and project. This website is also a reminder for me of technological progress.</p>
-                                        <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="./index.html" >Live Demo</a>
+                                        <div class="d-flex ">
+                                            <iconify-icon icon="logos:html-5" class="bi"></iconify-icon>
+                                            <iconify-icon icon="logos:css-3" class="bi"></iconify-icon>
+                                            <iconify-icon icon="skill-icons:javascript" class="bi"></iconify-icon>
+                                            <iconify-icon icon="skill-icons:bootstrap" class="bi"></iconify-icon>
+                                            <br> <!-- Pindahkan tombol ke baris berikutnya -->
+                                        </div>
+                                        <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="./index.html">Live Demo</a>
                                     </div>
                                     <img class="img-fluid" src="assets/personal.png" alt="Project Image" width="400" height="500" />
                                 </div>
@@ -72,6 +87,13 @@
                                     <div class="p-5">
                                         <h2 class="fw-bolder">Website <br> PT. Selvi Bahagia Utama</h2>
                                         <p>This website introduces PT Selvi Bahagia Utama to the general public to become one of the companies in the construction sector, and this website is also responsive to make it easier for clients.</p>
+                                        <div class="d-flex ">
+                                            <iconify-icon icon="logos:html-5" class="bi"></iconify-icon>
+                                            <iconify-icon icon="logos:css-3" class="bi"></iconify-icon>
+                                            <iconify-icon icon="skill-icons:javascript" class="bi"></iconify-icon>
+                                            <iconify-icon icon="skill-icons:bootstrap" class="bi"></iconify-icon>
+                                            <br> <!-- Pindahkan tombol ke baris berikutnya -->
+                                        </div>
                                         <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="./index.html" >Live Demo</a>
                                     </div>
                                     <img class="img-fluid" src="assets/websbu.png" alt="Project Image" width="400" height="500" />
@@ -91,6 +113,14 @@
                                                 <div class="p-5">
                                                     <h2 class="fw-bolder">Aplikasi Al - Quran</h2>
                                                     <p>This responsive Al-Qur'an application makes it easy for Muslims to read the Al-Qur'an anywhere and anytime, so they always remember the Creator.</p>
+                                                    <div class="d-flex ">
+                                                        <iconify-icon icon="logos:html-5" class="bi"></iconify-icon>
+                                                        <iconify-icon icon="logos:css-3" class="bi"></iconify-icon>
+                                                        <iconify-icon icon="skill-icons:javascript" class="bi"></iconify-icon>
+                                                        <iconify-icon icon="tabler:json" style="color: #4f709c;" class="bi"></iconify-icon>
+                                                        <iconify-icon icon="carbon:ibm-saas-console" style="color: #4f709c;" class="bi"></iconify-icon>
+                                                        <br> <!-- Pindahkan tombol ke baris berikutnya -->
+                                                    </div>
                                                     <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="./index.html" >Live Demo</a>
                                                 </div>
                                                 <img class="img-fluid" src="assets/apkalquran.png" alt="Project Image" width="400" height="500" />
@@ -110,6 +140,9 @@
                                                 <div class="p-5">
                                                     <h2 class="fw-bolder">Company Profile <br>PT. Selvi Bahagia Utama</h2>
                                                     <p>This company profile is to make it easier for clients to see developments, legalities and what projects PT SBU has in full and in detail.</p>
+                                                    <div class="d-flex">
+                                                        <iconify-icon icon="devicon:canva" style="color: #4f709c;" class="bi"></iconify-icon>
+                                                    </div>
                                                     <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="assets/CompanyProfile PT. SELVI BAHAGIA UTAMA.pdf" target="_blank">Live Demo</a>
                                                 </div>
                                                 <img class="img-fluid" src="assets/comproptselvi.png" alt="Project Image" width="300" height="500" />
@@ -129,6 +162,10 @@
                                                 <div class="p-5">
                                                     <h2 class="fw-bolder">DWG <br>Client Pa Azmar</h2>
                                                     <p>Apart from the field of informatics, I have also completed making 2D floor plans from my directors at PT SBU, to make it easier for contractors to do their work.</p>
+                                                    <div class="d-flex ">
+                                                        <iconify-icon icon="skill-icons:autocad-light" class="bi"></iconify-icon>
+                                                        <br> <!-- Pindahkan tombol ke baris berikutnya -->
+                                                    </div>
                                                     <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="assets/DENAH.pdf" target="_blank" >Live Demo</a>
                                                 </div>
                                                 <img class="img-fluid" src="assets/dwgpaazmar.png" alt="Project Image" width="400" height="700" />
@@ -147,6 +184,11 @@
                                                 <div class="p-5">
                                                     <h2 class="fw-bolder"> Shoot & Edit Video Drone <br>Graha Karangsari Karawang</h2>
                                                     <p>I shot this video myself and edited it to make it easier for consumers to see GKK housing so they are interested in buying it.</p>
+                                                    <div class="d-flex">
+                                                        <iconify-icon icon="gis:drone" style="color: #4f709c;" class="bi"></iconify-icon>
+                                                        <iconify-icon icon="logos:adobe-premiere" style="color: #4f709c;" class="bi"></iconify-icon>
+                                                        <iconify-icon icon="arcticons:capcut" style="color: black;" class="bi"></iconify-icon>
+                                                    </div>
                                                     <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="https://youtu.be/_jijrgVq7GU" target="_blank" >Live Demo</a>
                                                 </div>
                                                 <img class="img-fluid" src="assets/vidgkk.png" alt="Project Image" width="400" height="600" />
@@ -179,6 +221,7 @@
     <script>
       AOS.init();
     </script> 
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script src="js/scripts.js"></script>  
     </body>
 </html>

@@ -3629,7 +3629,7 @@ textarea.form-control-lg {
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
-  color: var(--bs-nav-link-color);
+  color: white;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3799,7 +3799,7 @@ textarea.form-control-lg {
 }
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
-  color: var(--bs-navbar-active-color);
+  color: white;
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -3923,6 +3923,7 @@ textarea.form-control-lg {
   .navbar-expand-md .navbar-nav .nav-link {
     padding-right: var(--bs-navbar-nav-link-padding-x);
     padding-left: var(--bs-navbar-nav-link-padding-x);
+    color: #fff;
   }
   .navbar-expand-md .navbar-nav-scroll {
     overflow: visible;
@@ -3970,6 +3971,7 @@ textarea.form-control-lg {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: var(--bs-navbar-nav-link-padding-x);
     padding-left: var(--bs-navbar-nav-link-padding-x);
+    color: white;
   }
   .navbar-expand-lg .navbar-nav-scroll {
     overflow: visible;
@@ -8195,7 +8197,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: #000;
+  color: #fff;
 }
 
 .text-secondary {
@@ -11570,7 +11572,7 @@ html {
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #F0F0F0 0%, #4F709C 100%);
+  background: -webkit-linear-gradient(315deg, #E5E5CB 0%, #4F709C 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
