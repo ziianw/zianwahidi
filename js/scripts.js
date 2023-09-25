@@ -7,7 +7,7 @@
 // Use this file to add JavaScript to your project
 
 const dynamicText = document.querySelector("h3 span");
-const words = [" Web Developer", " App Developer", " Networking"];
+const words = [" Web Developer", " App Developer", " Networking", "Drafter 2D"];
 
 // Variables to track the position and deletion status of the word
 let wordIndex = 0;
