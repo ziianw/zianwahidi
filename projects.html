@@ -17,6 +17,9 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link href="css/styles.css" rel="stylesheet" />
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+          </style>
+        <style>
             /* CSS untuk mengatur ukuran ikon */
             .bi {
                 font-size: 2rem; /* Ubah ukuran ikon sesuai kebutuhan */
@@ -24,6 +27,34 @@
                 margin-bottom: 15px;
                 color: #4F709C;
             }
+
+            h3{
+                font-family: 'Pacifico', cursive;
+            }
+
+            /* Animasi mengetik pada elemen p dengan kelas typsc */
+            @keyframes typing {
+             from {
+             width: 0;
+            }
+             to {
+              width: 100%;
+             }
+            }   
+
+            /* Menetapkan animasi mengetik pada elemen p dengan kelas typsc */
+            .typsc {
+            overflow: hidden; /* Tampilkan hanya teks yang sesuai dengan lebar */
+            white-space: nowrap; /* Hentikan pemisahan kata */
+            animation: typing 6s steps(80, end); /* Gunakan animasi mengetik selama 2 detik */
+            }
+
+            /* Efek scale pada elemen div dengan kelas row saat dihover */
+            .ntd:hover {
+            transform: scale(1.1); /* Scale elemen saat dihover */
+            transition: transform 0.s ease; /* Animasikan transisi scale */
+            }
+
         </style>
     </head>
     <body class="d-flex flex-column h-100 bg-light">
@@ -160,6 +191,30 @@
                                         <div class="card-body p-0">
                                             <div class="d-flex align-items-center">
                                                 <div class="p-5">
+                                                    <h2 class="fw-bolder">Rekening Koran & Faktur Pajak <br> PT. DRD, PT. DAK & PT. LAP</h2>
+                                                    <p>I Made this bank statement and tax invoice into softcopy from hardcopy, to make it easier for directors or superiors to see the company's expenses and income.</p>
+                                                    <div class="d-flex ">
+                                                        <iconify-icon icon="vscode-icons:file-type-excel" class="bi"></iconify-icon>
+                                                        <br> <!-- Pindahkan tombol ke baris berikutnya -->
+                                                    </div>
+                                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="assets/Gedung Samadikun Lt.3-Model.pdf" target="_blank" >Live Demo</a>
+                                                </div>
+                                                <img class="img-fluid" src="assets/rekeningkoran.png" alt="Project Image" width="400" height="700" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row gx-5 justify-content-center" data-aos="fade-right"
+                            data-aos-duration="1550">
+                                <div class="col-lg-11 col-xl-9 col-xxl-8">
+                                    <!-- Project Card 5-->
+                                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                        <div class="card-body p-0">
+                                            <div class="d-flex align-items-center">
+                                                <div class="p-5">
                                                     <h2 class="fw-bolder">DWG <br>Client Pa Azmar</h2>
                                                     <p>Apart from the field of informatics, I have also completed making 2D floor plans from my directors at PT SBU, to make it easier for contractors to do their work.</p>
                                                     <div class="d-flex ">
@@ -175,7 +230,7 @@
                                 </div>
                             </div>
 
-                            <div class="row gx-5 justify-content-center" data-aos="fade-right"
+                            <div class="row gx-5 justify-content-center" data-aos="fade-left"
                             data-aos-duration="1550">
                                 <div class="col-lg-11 col-xl-9 col-xxl-8">
                                     <!-- Project Card 5-->
@@ -198,7 +253,7 @@
                                 </div>
                             </div>
 
-                            <div class="row gx-5 justify-content-center" data-aos="fade-left" data-aos-duration="1550">
+                            <div class="row gx-5 justify-content-center" data-aos="fade-right" data-aos-duration="1550">
                                 <div class="col-lg-11 col-xl-9 col-xxl-8">
                                     <!-- Project Card 6-->
                                     <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
@@ -216,6 +271,21 @@
                                                 </div>
                                                 <img class="img-fluid" src="assets/vidgkk.png" alt="Project Image" width="400" height="600" />
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row gx-5 justify-content-center ntd" data-aos="fade-up"
+                            data-aos-duration="1550">
+                                <div class="col-lg-11 col-xl-9 col-xxl-8">
+                                    <!-- Project Card 5-->
+                                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                        <div class="card-body p-0">
+                                            <div class="d-flex align-items-center">
+                                                <div class="p-5">
+                                                    <h3 class="fw-bolder">Noted :</h3>
+                                                    <p class="typsc">The live demo that leads to the home page has special approval from the relevant parties.</p>
                                         </div>
                                     </div>
                                 </div>
