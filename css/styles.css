@@ -11615,11 +11615,11 @@ html {
   max-width: 40rem;
 }
 .profile .profile-img {
-  height: 200vw;
-  max-height: 45rem;
+  height: 100vw;
+  max-height: 39rem;
   position: absolute;
   bottom: 0;
-  left: 50%;
+  left: 45%;
   transform: translateX(-50%);
 }
 .profile .dots-1 {
@@ -11737,7 +11737,7 @@ html {
     left: -2vw;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1350px) {
   .profile {
     height: 35vw;
     width: 35vw;
@@ -11803,5 +11803,5 @@ section, footer {
 
 .text-primary {
   --bs-text-opacity: 1;
-  color: white;
+  color: black;
 }
