@@ -11806,7 +11806,7 @@ section, footer {
   color: black;
 }
 
-.cssbuttons-io-button {
+.buttonpanah {
     background: #4F709C;
     color: white;
     font-family: inherit;
@@ -11827,7 +11827,7 @@ section, footer {
     margin-top: 15px;
   }
   
-  .cssbuttons-io-button .icon {
+  .buttonpanah .icon {
     background: white;
     margin-left: 1em;
     position: absolute;
@@ -11842,22 +11842,22 @@ section, footer {
     transition: all 0.3s;
   }
   
-  .cssbuttons-io-button:hover .icon {
+  .buttonpanah:hover .icon {
     width: calc(100% - 0.6em);
   }
   
-  .cssbuttons-io-button .icon svg {
+  .buttonpanah .icon svg {
     width: 1.1em;
     transition: transform 0.3s;
     color: #4F709C;
   }
   
-  .cssbuttons-io-button:hover .icon svg {
+  .buttonpanah:hover .icon svg {
     transform: translateX(0.1em);
     width: calc(100% - 0.6em);
     transition: all 1s; /* Sesuaikan nilai sesuai keinginan (misalnya, 0.5s untuk transisi lebih lambat) */
   }
   
-  .cssbuttons-io-button:active .icon {
+  .buttonpanah:active .icon {
     transform: scale(0.95);
   }
