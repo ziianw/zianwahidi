@@ -166,6 +166,58 @@ body {
     }
   }
 
+  &--3 {
+    left: 50%;
+    transform: rotate(-15deg);
+    animation: moving-flower-3 4s linear infinite;
+    .flower__line {
+      animation-delay: 0.9s;
+      &__leaf {
+        &--1 {
+          animation: blooming-leaf-right var(--fl-speed) 2.5s backwards;
+        }
+
+        &--2 {
+          animation: blooming-leaf-right var(--fl-speed) 2.3s backwards;
+        }
+
+        &--3 {
+          animation: blooming-leaf-left var(--fl-speed) 2.1s backwards;
+        }
+
+        &--4 {
+          animation: blooming-leaf-left var(--fl-speed) 1.9s backwards;
+        }
+      }
+    }
+  }
+
+  &--3 {
+    left: 50%;
+    transform: rotate(-15deg);
+    animation: moving-flower-3 4s linear infinite;
+    .flower__line {
+      animation-delay: 0.9s;
+      &__leaf {
+        &--1 {
+          animation: blooming-leaf-right var(--fl-speed) 2.5s backwards;
+        }
+
+        &--2 {
+          animation: blooming-leaf-right var(--fl-speed) 2.3s backwards;
+        }
+
+        &--3 {
+          animation: blooming-leaf-left var(--fl-speed) 2.1s backwards;
+        }
+
+        &--4 {
+          animation: blooming-leaf-left var(--fl-speed) 1.9s backwards;
+        }
+      }
+    }
+  }
+
   &__leafs {
     position: relative;
     animation: blooming-flower 2s backwards;
